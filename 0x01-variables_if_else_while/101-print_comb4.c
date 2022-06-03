@@ -8,15 +8,23 @@
  */
 int main(void)
 {
-	int a, b, c = '1';
+	int a, b, c;
 	
 	for (a = '0'; a <= '7'; a++)
 	{
 		for (b = '1'; b <= '8'; b++)
 		{
+			if (b == '1')  c = '2';
+			if (b == '2')  c = '3';
+			if (b == '3')  c = '4';
+			if (b == '4')  c = '5';
+			if (b == '5')  c = '6';
+			if (b == '6')  c = '7';
+			if (b == '7')  c = '8';
+			if (b == '8')  c = '9';
+			
 			for (; c <= '9'; c++)
 			{
-				c++;
 				putchar(a);
 				putchar(b);
 				putchar(c);
