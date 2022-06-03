@@ -14,7 +14,8 @@ int main(void)
 	{
 		for (b = '1'; b <= '8'; b++)
 		{
-			for (c = '2'; c <= '9'; c++)
+			c = '2'
+			for (; c <= '9'; c++)
 			{
 				putchar(a);
 				putchar(b);
@@ -22,10 +23,8 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			c++;
 		}
-		a++;
-		b++;
-		c += 2;
 	}
 
 	putchar('\n');
