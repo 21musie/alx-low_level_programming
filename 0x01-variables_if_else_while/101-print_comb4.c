@@ -8,8 +8,7 @@
  */
 int main(void)
 {
-	int a, b, c;
-	c = '2';
+	int a, b, c = '1';
 	
 	for (a = '0'; a <= '7'; a++)
 	{
@@ -17,6 +16,7 @@ int main(void)
 		{
 			for (; c <= '9'; c++)
 			{
+				c++;
 				putchar(a);
 				putchar(b);
 				putchar(c);
@@ -28,8 +28,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 				}
-			}
-			++c;
+			}			
 		}
 	}
 
