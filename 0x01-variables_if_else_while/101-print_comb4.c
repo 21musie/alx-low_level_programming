@@ -10,6 +10,7 @@ int main(void)
 {
 	int a, b, c;
 	c = '2';
+	
 	for (a = '0'; a <= '7'; a++)
 	{
 		for (b = '1'; b <= '8'; b++)
@@ -19,7 +20,10 @@ int main(void)
 				putchar(a);
 				putchar(b);
 				putchar(c);
-				if (a < 7 && b < 8 && c < 9)
+				if (a = '7' && b = '8' && c = '9')
+				{
+				}
+				else
 				{
 				putchar(',');
 				putchar(' ');
