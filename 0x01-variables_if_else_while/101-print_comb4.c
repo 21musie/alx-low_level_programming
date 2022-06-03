@@ -14,16 +14,18 @@ int main(void)
 	{
 		for (b = '1'; b <= '8'; b++)
 		{
-			for (c = '2'; c <= '9'; c++){
-				
+			for (c = '2'; c <= '9'; c++)
+			{
 				putchar(a);
 				putchar(b);
 				putchar(c);
 				putchar(',');
 				putchar(' ');
-				
 			}
 		}
+		a++;
+		b++;
+		c++;
 	}
 
 	putchar('\n');
